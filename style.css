@@ -1,5 +1,5 @@
 .card-container {
-    background-image: url('assets/bg3.jpg');
+    background-image: url('assets/bg1.jpg');
     background-size: cover;
     border-radius: 10px;
     overflow: hidden;
@@ -35,3 +35,4 @@
     color: #57375D;
     font-weight: 900 !important;
 }
+
