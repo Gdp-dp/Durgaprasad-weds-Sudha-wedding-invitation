@@ -1,7 +1,37 @@
-.card-container
-.card-img
-.invited-container
-.namaskar-logo
-.QR
-.attend-heading
-.names-invite
+.card-container {
+    background-image: url('assets/bg3.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.card-img {
+    border-radius: 10px;
+}
+
+.invited-container {
+    background-image: radial-gradient(gold, white);
+    border-radius: 20px;
+}
+
+.namaskar-logo {
+    height: 150px;
+}
+
+.QR {
+    height: 500px;
+}
+
+.attend-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 65px;
+    color: purple;
+}
+
+.names-invite {
+    font-family: 'Dancing Script', cursive;
+    font-size: 85px;
+    color: #57375D;
+    font-weight: 900 !important;
+}
