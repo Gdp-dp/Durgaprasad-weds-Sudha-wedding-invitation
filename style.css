@@ -1,0 +1,47 @@
+body{
+margin:0;
+font-family: Arial;
+text-align:center;
+background:#fff7f7;
+}
+
+.hero{
+background:url('images/background.jpg');
+background-size:cover;
+padding:120px 20px;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+font-family: 'Great Vibes', cursive;
+}
+
+.details{
+padding:50px;
+background:white;
+}
+
+.couple img{
+width:250px;
+border-radius:20px;
+margin-top:20px;
+}
+
+.countdown{
+background:#f8e6e6;
+padding:50px;
+font-size:30px;
+}
+
+.map iframe{
+width:90%;
+height:300px;
+border:0;
+}
+
+footer{
+background:#111;
+color:white;
+padding:20px;
+}
