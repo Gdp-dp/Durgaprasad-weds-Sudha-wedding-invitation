@@ -1,5 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@700&family=DM+Serif+Display&family=Dancing+Script:wght@600&family=Inter:wght@500&family=Josefin+Sans:ital@0;1&family=Niconne&family=Open+Sans&family=Parisienne&family=Roboto:wght@700&family=Yeseva+One&display=swap');
+
+.bg {
+    background-image: url('./assets/bg1.jpg');
+    background-size: cover;
+    padding: 3rem;
+    overflow: hidden;
+}
+
+.bg2 {
+    background-image: url('./assets/butterfliesbg.gif');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 5rem;
+}
+
+.bg1 {
+    background-image: url('assets/celebrationbg.webp');
+    background-size: cover;
+}
+
+.home {
+    margin-top: 5rem;
+}
+
+.main-h {
+    font-family: 'Cinzel', Serif;
+    font-size: 150px;
+    color: #223C60;
+    font-weight: 500;
+}
+
+.names {
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+    color: #57375D;
+    font-weight: 900 !important;
+}
+
+.X {
+    color: #804674;
+}
+
+hr {
+    width: 80vw;
+    color: white;
+    height: 3px;
+}
+
+.home-p {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    padding-top: 2%;
+    color: #804674;
+}
+
+.date {
+    font-family: "Niconne", cursive;
+    font-size: 99px;
+    color: #57375D;
+}
+
+.button {
+    height: 80px;
+    /* width: 240px; */
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    border-width: 0px;
+    border-radius: 10px;
+    background-image: url('./assets/btnbg.gif');
+    background-size: cover;
+    color: black;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+
+}
+
+.carousel-image {
+    height: 650px;
+    border-radius: 20px;
+}
+
+.image {
+    border-radius: 400px;
+    height: 350px;
+    width: 350px;
+
+}
+
+.address {
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #57375D;
+
+}
+
 .card-container {
-    background-image: url('images/bg1.jpg');
+    background-image: url('assets/bg3.jpg');
     background-size: cover;
     border-radius: 10px;
     overflow: hidden;
@@ -8,6 +109,54 @@
 
 .card-img {
     border-radius: 10px;
+}
+
+.fun-heading {
+    font-family: 'Cormorant Garamond', serif;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 120px;
+    color: purple;
+}
+
+.fun-container {
+    background-image: url('assets/funbg.jpg');
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.fun-container:hover {
+    transition: 1s;
+    transform: scale(1.05);
+
+}
+
+.fun-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 450px;
+}
+
+.fun-names {
+    font-family: "Niconne", cursive;
+    font-size: 100px;
+    color: #57375D;
+}
+
+.fun-p {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    padding-top: 2%;
+    color: #804674;
+}
+
+.section-names {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: #57375D;
 }
 
 .invited-container {
@@ -19,8 +168,8 @@
     height: 150px;
 }
 
-.QR {
-    height: 500px;
+.map {
+    border-radius: 10px !important;
 }
 
 .attend-heading {
@@ -36,4 +185,37 @@
     font-weight: 900 !important;
 }
 
+.QR {
+    height: 500px;
 
+}
+
+
+@media (min-width:992px) {
+    .fun-p {
+        font-size: 25px;
+    }
+
+    .fun-image {
+        height: 250px;
+    }
+
+    .fun-names {
+        font-size: 50px;
+    }
+
+    .carousel-image {
+        height: 700px;
+        width: 1000px !important;
+        margin: auto;
+    }
+
+    .section-names {
+        font-size: 55px;
+    }
+
+    .card-container {
+        height: 430px;
+
+    }
+}
