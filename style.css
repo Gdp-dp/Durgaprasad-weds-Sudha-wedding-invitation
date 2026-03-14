@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@700&family=DM+Serif+Display&family=Dancing+Script:wght@600&family=Inter:wght@500&family=Josefin+Sans:ital@0;1&family=Niconne&family=Open+Sans&family=Parisienne&family=Roboto:wght@700&family=Yeseva+One&display=swap');
 
 .bg {
-    background-image: url('./assets/bg1.jpg');
+    background-image: url('./images/bg1.jpg');
     background-size: cover;
     padding: 3rem;
     overflow: hidden;
 }
 
 .bg2 {
-    background-image: url('./assets/butterfliesbg.gif');
+    background-image: url('./images/butterfliesbg.gif');
     background-size: cover;
     border-radius: 10px;
     padding: 5rem;
 }
 
 .bg1 {
-    background-image: url('assets/celebrationbg.webp');
+    background-image: url('images/celebrationbg.webp');
     background-size: cover;
 }
 
@@ -69,7 +69,7 @@ hr {
     font-size: 40px;
     border-width: 0px;
     border-radius: 10px;
-    background-image: url('./assets/btnbg.gif');
+    background-image: url('./images/btnbg.gif');
     background-size: cover;
     color: black;
 }
@@ -100,7 +100,7 @@ hr {
 }
 
 .card-container {
-    background-image: url('assets/bg3.jpg');
+    background-image: url('images/bg3.jpg');
     background-size: cover;
     border-radius: 10px;
     overflow: hidden;
@@ -120,7 +120,7 @@ hr {
 }
 
 .fun-container {
-    background-image: url('assets/funbg.jpg');
+    background-image: url('images/funbg.jpg');
     background-size: cover;
     border-radius: 20px;
 
@@ -219,3 +219,4 @@ hr {
 
     }
 }
+
