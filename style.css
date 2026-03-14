@@ -190,6 +190,22 @@ hr {
 
 }
 
+.corner-left {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 120px;
+    z-index: 1000;
+}
+
+.corner-right {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 120px;
+    z-index: 1000;
+}
+
 
 @media (min-width:992px) {
     .fun-p {
